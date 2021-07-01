@@ -1,0 +1,28 @@
+.image{
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.bordure{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 15px 0px;
+}
+.header{
+    margin: 20px 0px;
+    border-bottom: 3px dotted grey;
+}
+
+@media screen and (max-width :688px){
+    body{
+        background-color: black;
+        color: white;
+    }
+}
+@media screen and (min-width:689px) and (max-width:992px){
+    body{
+        background-color: darkgrey;
+        color: blueviolet;
+    }
+}
